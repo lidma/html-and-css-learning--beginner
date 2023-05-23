@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-container{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            position: relative;
+        }
+       
+        .promotion{
+            background-color: black;
+            color: white;
+            position: absolute;
+            top: 20px;
+            right: -200px;
+            padding: 4px;
+
+        }
+        .product-image{
+           height: 400px;
+           width: 400px;
+           object-fit: cover;
+        }
+    </style>
+</head>
+<body style="height: 3000px;">
+   <div class="product-container">
+      <img class="product-image"src="image/shirt.jpg" alt="">
+      <div class="promotion">20% OFF</div>
+   </div> 
+</body>
+</html>

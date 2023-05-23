@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  height: 3000px;
+}
+
+.product-container {
+  position: relative;
+  display: inline-block;
+}
+
+.product-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.promotion{
+    position: absolute;
+    top: 10px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.bottom-overlay{
+  background-color:  rgba(244, 246, 247, 0.7);
+  position: absolute;
+  bottom: 0;
+  right: o;
+  left: 0;
+  height: 90px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-to-cart-button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <img class="product-image" src="image/shirt.jpg">
+        <div class="promotion">20% OFF</div>
+        <div class="bottom-overlay">
+          <button class="add-to-cart-button">Add to cart</button>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        div{
+            font-family: arial;
+        }
+        .picture{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-bottom: 4px;
+           
+            
+        }
+        .sidebar1{
+            background-color: rgb(32, 32, 32);
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+
+        }
+        .sidebar2{
+            background-color: rgb(75, 75, 75);
+            position: fixed;
+            top: 0;
+            left: 70px;
+            bottom: 0;
+            width: 150px;
+            padding-top: 15px;
+            padding-left: 15px;
+             padding-right: 15px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+        }
+        .name{
+            color: white;
+            font-size: 14px;
+        }
+        .create-new{
+            color: rgb(150, 150, 150);
+            font-size: 25px;
+        }
+        .channel{
+            color: rgb(150, 150, 150);
+            margin-bottom: 16px;
+}
+    </style>
+</head>
+<body>
+ <div class="sidebar1">
+    <div><img class="picture"src="image/cat2.jpg" alt=""></div>
+    <div><img class="picture"src="image/dog.jpg" alt=""></div>
+    <div><img class="picture"src="image/dog2.jpg" alt=""></div>
+ </div>
+  <div class="sidebar2">
+    <div class="header">
+        <div class="name">INFO</div>
+        <div class="create-new">+</div>
+    </div>
+    <div class="channel"># new-videos</div>
+  <div class="channel"># updates</div>
+  <div class="channel"># faq</div>
+  </div>
+  
+                    
+</body>
+</html>
